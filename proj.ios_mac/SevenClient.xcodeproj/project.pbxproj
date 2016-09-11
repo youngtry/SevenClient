@@ -60,6 +60,15 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		8FE1FCB11D854B35009AD0D3 /* commsock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FCB01D854B35009AD0D3 /* commsock.cpp */; };
+		8FE1FCB41D854B9A009AD0D3 /* SocketManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FCB21D854B9A009AD0D3 /* SocketManager.cpp */; };
+		8FE1FD151D8586BE009AD0D3 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FD141D8586BE009AD0D3 /* error.cpp */; };
+		8FE1FD191D858DE0009AD0D3 /* wraplib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FD181D858DE0009AD0D3 /* wraplib.cpp */; };
+		8FE1FD1B1D859070009AD0D3 /* str_cli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FD1A1D859070009AD0D3 /* str_cli.cpp */; };
+		8FE1FD1D1D859143009AD0D3 /* wrapstdio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FD1C1D859143009AD0D3 /* wrapstdio.cpp */; };
+		8FE1FD1F1D8591DA009AD0D3 /* writen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FD1E1D8591DA009AD0D3 /* writen.cpp */; };
+		8FE1FD211D859274009AD0D3 /* readline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1FD201D859274009AD0D3 /* readline.cpp */; };
+		8FE1FD3A1D85AD28009AD0D3 /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1FD391D85AD28009AD0D3 /* text.txt */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -154,6 +163,17 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8FE1FCAF1D854B0A009AD0D3 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		8FE1FCB01D854B35009AD0D3 /* commsock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = commsock.cpp; sourceTree = "<group>"; };
+		8FE1FCB21D854B9A009AD0D3 /* SocketManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketManager.cpp; sourceTree = "<group>"; };
+		8FE1FCB31D854B9A009AD0D3 /* SocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		8FE1FD141D8586BE009AD0D3 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
+		8FE1FD181D858DE0009AD0D3 /* wraplib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wraplib.cpp; sourceTree = "<group>"; };
+		8FE1FD1A1D859070009AD0D3 /* str_cli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = str_cli.cpp; sourceTree = "<group>"; };
+		8FE1FD1C1D859143009AD0D3 /* wrapstdio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wrapstdio.cpp; sourceTree = "<group>"; };
+		8FE1FD1E1D8591DA009AD0D3 /* writen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = writen.cpp; sourceTree = "<group>"; };
+		8FE1FD201D859274009AD0D3 /* readline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readline.cpp; sourceTree = "<group>"; };
+		8FE1FD391D85AD28009AD0D3 /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -289,6 +309,7 @@
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
 				46880B7719C43A67006E1F66 /* CloseSelected.png */,
 				46880B7A19C43A67006E1F66 /* HelloWorld.png */,
+				8FE1FD391D85AD28009AD0D3 /* text.txt */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -297,6 +318,8 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8FE1FCAD1D854AED009AD0D3 /* lib */,
+				8FE1FCAE1D854AED009AD0D3 /* net */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -352,6 +375,30 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		8FE1FCAD1D854AED009AD0D3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FD201D859274009AD0D3 /* readline.cpp */,
+				8FE1FD1E1D8591DA009AD0D3 /* writen.cpp */,
+				8FE1FD1C1D859143009AD0D3 /* wrapstdio.cpp */,
+				8FE1FD1A1D859070009AD0D3 /* str_cli.cpp */,
+				8FE1FCAF1D854B0A009AD0D3 /* common.h */,
+				8FE1FCB01D854B35009AD0D3 /* commsock.cpp */,
+				8FE1FD141D8586BE009AD0D3 /* error.cpp */,
+				8FE1FD181D858DE0009AD0D3 /* wraplib.cpp */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8FE1FCAE1D854AED009AD0D3 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				8FE1FCB21D854B9A009AD0D3 /* SocketManager.cpp */,
+				8FE1FCB31D854B9A009AD0D3 /* SocketManager.h */,
+			);
+			path = net;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -467,6 +514,7 @@
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
+				8FE1FD3A1D85AD28009AD0D3 /* text.txt in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
@@ -497,8 +545,16 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				8FE1FD1D1D859143009AD0D3 /* wrapstdio.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				8FE1FD1B1D859070009AD0D3 /* str_cli.cpp in Sources */,
+				8FE1FD191D858DE0009AD0D3 /* wraplib.cpp in Sources */,
+				8FE1FD151D8586BE009AD0D3 /* error.cpp in Sources */,
+				8FE1FD211D859274009AD0D3 /* readline.cpp in Sources */,
+				8FE1FD1F1D8591DA009AD0D3 /* writen.cpp in Sources */,
+				8FE1FCB41D854B9A009AD0D3 /* SocketManager.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				8FE1FCB11D854B35009AD0D3 /* commsock.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +605,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
+					"$(SRCROOT)/../Classes/lib",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../Classes/net",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -584,7 +642,9 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
+					"$(SRCROOT)/../Classes/lib",
 					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+					"$(SRCROOT)/../Classes/net",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
